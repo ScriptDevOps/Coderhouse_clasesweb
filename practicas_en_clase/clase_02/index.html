@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregado de Datos:DEMO 0.5</title>
+    <h1>Bienvenido a la demo de Data Science</h1>
+
+    <h2>Por favor, agrega tus siguientes datos:</h2>
+    <ul>
+        <li>Nombre</li>
+        <li>Edad</li>
+        <li>Región</li>
+        <li>Sexo</li>
+        <li>Correo electronico</li>
+        <li>Tu opinión sobre la clase</li>
+    </ul>
+</head>
+<body>
+    <h2>Ingresa tus datos aquí:</h2>
+    <div style="font-size:16px; background-color: lightblue; position: fixed;
+    margin-left: 6mm;">
+        <form action="" method="get">
+
+            <div>
+                <label for="nombre">Ingresa tu nombre:</label>
+                <input type="text" placeholder="ingresa texto aquí" name="nombre">
+            </div>
+
+                 <br>
+            <div>
+                <label for="edad">Ingresa tu edad:</label>
+                <input type="text" name="edad" placeholder="Ingresa texto aquí">
+            </div>
+                <br>
+            <div>
+                <label for="email">Ingresa tu email:</label>
+                <input type="email" name="email" placeholder="demo@domain.com">
+            </div>
+
+                <br>
+            <div style=" margin-left: 8mm;">
+                <h3>Ingresa tu región</h3>
+                <label for="NorteAmerica">Norte America</label>
+                <input type="radio" name="region"> 
+                <br>
+                <label for="SurAmerica">Sur America</label>
+                <input type="radio" name="region">
+                <br> 
+                <label for="CentroAmerica">Centro America</label>
+                <input type="radio" name="region"> 
+                <br>
+                <label for="otro">otro</label>
+                <input type="radio" name="region"> 
+            </div>
+
+            <div style="margin-left: 8mm;">
+                <h4>Sexo:</h4>
+                <label for="hombre">Masculino</label>
+                <input type="radio" name="sexo">
+                <label for="mujer">Femenino</label>
+                <input type="radio" name="sexo">
+                <label for="otro">No binario</label>
+                <input type="radio" name="sexo">
+            </div>
+            <div>
+                <label for="opinion"><h5>¿Qué opinas sobre CoderHouse?</h5></label>
+                <textarea id="msg"
+                name="opinion"
+                placeholder="Escribe aquí..."></textarea>
+            </div>
+            <div>
+                <li class="button">
+                    <button type="submit">Envíar</button>
+                </li>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+<footer>
+</footer>
+</html>
